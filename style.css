@@ -3,3 +3,74 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
+/*CSS for Main-Container*/
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 200px
+}
+
+.logo p{
+    font-size: 24px;
+}
+
+.nav-items{
+    display: flex; 
+}
+
+.nav-items{
+    list-style: none;
+    gap: 20px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.main-text{
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    /* line-height: ; */
+}
+
+.main-text, .logo p{
+    color: #F9FAF8;
+}
+
+.secondary-text, li{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.secondary-text{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-button{
+    padding: 8px 30px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.hero-image img{
+    height: 200px;
+    width: 420px;
+}
