@@ -153,3 +153,12 @@ body{
     border: 3px solid #E5E7EB;
     background-color: #3882F6;  
 }
+
+/*CSS for Footer*/
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px;
+    color: #E5E7EB;
+}
