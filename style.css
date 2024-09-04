@@ -121,3 +121,35 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/*CSS for Call-to-action Container*/
+
+.call-to-action-container{
+    background-color: #3882F6;
+    margin: 100px 150px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#content .heading{
+    font-weight: bold;
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+#content .detail{
+    color: #E5E7EB;
+    margin-top: -20px;
+}
+
+.call-to-action-button{
+    padding: 5px 30px;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
+    background-color: #3882F6;  
+}
